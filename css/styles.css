@@ -12,6 +12,8 @@
 
 /* components */
 @import "components/banner-container.css";
+@import "components/header.css";
+@import "components/first_div.css";
 
 /* --------------------------------------------------- */
 
