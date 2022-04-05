@@ -1,0 +1,30 @@
+.banner_container {
+  position: fixed;
+  z-index: var(--above-all-z-index);
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid rgba(14, 100, 220, 0.3);
+  height: 50px;
+  margin-top: 2px;
+  background-color: #eff1f2;
+  transition: 0.5s ease-in-out;
+}
+.banner_container:hover {
+  background-color: white;
+}
+.banner_contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#trello_logo {
+  height: 35px;
+  color: black;
+  margin-left: 10px;
+}

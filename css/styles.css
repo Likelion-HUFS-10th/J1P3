@@ -11,7 +11,7 @@
 @import "screens/second.css";
 
 /* components */
-@import "components/ad-container.css";
+@import "components/banner-container.css";
 
 /* --------------------------------------------------- */
 
@@ -22,5 +22,4 @@ button {
   font-size: 15px; /* 기본 폰트 사이즈 15pt */
   font-family: NotoSans-Regular, AppleSDGothicNeo-Regular, "맑은 고딕",
     Malgun Gothic, "돋움", dotum, sans-serif;
-  color: #fff;
 }
