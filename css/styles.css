@@ -1,0 +1,26 @@
+/* index.html에 적용될 css 스타일 파일들을 한 데 모으는 파일입니다. */
+/* @import "<filename>.css;" 형식이며 css 파일보다 더 깊숙히 있는 경우엔 @import "<foldername>/<filename>.css;"로 작성해주시면 됩니다. */
+/* 꿀팁 : 일일이 다 타이핑하지 마시고 쓰고자 하는 줄 윗 코드에 커서를 두고 option+shift+아래화살표 누르면 바로 복사됩니다. */
+
+/* base import */
+@import "reset.css";
+@import "variables.css";
+
+/* screens */
+@import "screens/main.css";
+@import "screens/second.css";
+
+/* components */
+@import "components/ad-container.css";
+
+/* --------------------------------------------------- */
+
+body,
+input,
+textarea,
+button {
+  font-size: 15px; /* 기본 폰트 사이즈 15pt */
+  font-family: NotoSans-Regular, AppleSDGothicNeo-Regular, "맑은 고딕",
+    Malgun Gothic, "돋움", dotum, sans-serif;
+  color: #fff;
+}
