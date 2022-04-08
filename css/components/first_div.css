@@ -1,60 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
+.first_div {
+  background-image: url("https://static.wixstatic.com/media/a38016_9bd9d7a9ccb44689ba0771fd8e44d08e.jpg/v1/fill/w_1960,h_1200,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/a38016_9bd9d7a9ccb44689ba0771fd8e44d08e.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  font-family: Georgia, "Malgun Gothic", serif;
+  display: flex;
+}
+.first_content {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
 }
 
-.first_div{
-    background-image: url('https://static.wixstatic.com/media/a38016_9bd9d7a9ccb44689ba0771fd8e44d08e.jpg/v1/fill/w_1960,h_1200,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/a38016_9bd9d7a9ccb44689ba0771fd8e44d08e.jpg');
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    font-family: Georgia, "Malgun Gothic", serif;
-    display: flex;
-}
-.first_content{
-    width: 1000px;
-    margin: 0 auto;
-    display: block;
-    margin-top: 100px;
+.fc_top {
+  width: 600px;
+  margin-bottom: 80px;
+  font-size: 60px;
+  color: white;
 }
 
-.fc_top{
-    width: 600px;
-    margin-bottom: 80px;
-    font-size: 60px;
-    color: white;
+.fc_top p {
+  line-height: 1;
 }
 
-.fc_top p{
-    line-height: 1;
+.fc_top p img {
+  width: 40px;
+  height: 40px;
 }
 
-.fc_top p img{
-    width: 40px;
-    height: 40px;
+.fc_bottom {
+  width: 700px;
+  font-size: 29px;
+  color: white;
 }
 
-.fc_bottom{
-    width: 700px;
-    font-size: 29px;
-    color: white;
+.fc_btn {
+  margin-top: 30px;
 }
 
-.fc_btn{
-    margin-top: 30px;
-}  
-
-.fc_btn button{
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid;
-    color: white;
-    width: 165px;
-    margin: 0 40px 0 0;
-    padding: 12px 0;
-    cursor: pointer;
-    transition: all 0.75s;
-    
+.fc_btn button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid;
+  color: white;
+  width: 165px;
+  margin: 0 40px 0 0;
+  padding: 12px 0;
+  cursor: pointer;
+  transition: all 0.75s;
 }
-.fc_btn button:hover{
-    color: #FACC0B;
+.fc_btn button:hover {
+  color: #facc0b;
 }
