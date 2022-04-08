@@ -1,0 +1,12 @@
+body {
+  overflow-x: auto;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.site_wrap {
+  min-width: var(--site-width);
+  top: var(--banner-top-height);
+  min-height: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,155 @@
+.fourth_div {
+  background-color: #212121;
+  background-image: url("http://likelion-hufs-seoul.com/static/images/hack_your_life.png");
+  background-size: 300px;
+  background-blend-mode: multiply;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  display: block;
+}
+.fourth_content {
+  width: 1000px;
+  height: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* --------------------------------------------------- */
+
+.content-box {
+  margin-top: 90px;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+#title-main-plus {
+  color: rgb(255, 255, 255);
+  height: 40px;
+  margin: 10px;
+}
+
+#new-align-div {
+  display: block;
+}
+.content-box_title {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+
+.title-main {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* --------------------------------------------------- */
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.info-box_leftside {
+  margin-right: 20px;
+  justify-content: center;
+}
+.info_sitelink {
+  margin: 40px 0px;
+  color: rgba(255, 255, 255, 1);
+}
+.li-link {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#info-github_logo {
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 3px;
+}
+#info-trello_logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+}
+#info-mutsa_logo {
+  height: 25px;
+  width: 25px;
+  border-radius: 2px;
+  margin-right: 12px;
+}
+li a:hover {
+  color: var(--mutsa-orange);
+}
+
+.info_firstwemet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#map_firstwemet {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+/* --------------------------------------------------- */
+
+.info-box_rightside {
+  width: 400px;
+  margin-left: 20px;
+  position: relative;
+}
+#hack_your_life {
+  position: absolute;
+  width: 300px;
+  top: -20%;
+  right: 20%;
+}
+.rightside_titlebox {
+  margin-bottom: 20px;
+  margin-top: 260px;
+}
+.rightside_title-sent {
+  font-size: 30px;
+  line-height: 120%;
+}
+
+.info_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#input-area {
+  display: flex;
+}
+.info_form input {
+  width: 180px;
+  margin: 5px 0px;
+  padding: 5px 10px;
+}
+.info_form textarea {
+  width: 140px;
+  height: 105px;
+  margin-right: 20px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+.info_form-btn {
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  width: 95%;
+  height: 30px;
+  margin-top: 10px;
+  background-color: var(--mutsa-orange);
+  cursor: pointer;
+}
