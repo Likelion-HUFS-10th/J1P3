@@ -13,26 +13,31 @@
   margin-top: 100px;
 }
 
+.first_div {
+  background-image: url("https://postfiles.pstatic.net/MjAyMjA0MDhfMjUy/MDAxNjQ5MzQ5OTk3MzA3.LSZD4G0kD2w29J3sNdvl97_5yhguNvMPKDDC3vw_zRwg.Ux3B1cjYADdbV0Mvb2bDTpjedE8TmH88tLAw_Icelmcg.PNG.green980611/%EC%BD%94%EB%94%A9%EC%82%AC%EC%9E%90.png?type=w966");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  font-family: Georgia, "Malgun Gothic", serif;
+  display: flex;
+}
+.first_content {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
 .fc_top {
+  position: relative;
   width: 600px;
   margin-bottom: 80px;
   font-size: 60px;
   color: white;
 }
 
-.fc_top p {
-  line-height: 1;
-}
-
 .fc_top p img {
   width: 40px;
   height: 40px;
-}
-
-.fc_bottom {
-  width: 700px;
-  font-size: 29px;
-  color: white;
 }
 
 .fc_btn {
