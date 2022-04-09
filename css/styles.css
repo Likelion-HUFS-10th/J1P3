@@ -14,8 +14,11 @@
 @import "components/banner-container.css";
 @import "components/header.css";
 @import "components/first_div.css";
+@import "components/second_div.css";
+@import "components/third_div.css";
 @import "components/fourth_div.css";
 @import "components/footer-container.css";
+
 /* --------------------------------------------------- */
 
 body,
