@@ -1,54 +1,51 @@
 .third_div {
-    padding-left:50px;
-    font-family: 'Rubik Moonrocks', cursive;
-    font-size: 30px;
-    display: table-cell;
-    vertical-align: middle;
-
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  vertical-align: middle;
+  padding: 70px 0px;
 }
 
-.third2_div{
-    position: relative;
-    top: 30px;
+.third_div-text_container {
+  position: relative;
+  top: 30px;
 }
 
-
-.name-text {                                  
-    font-size: 18px;                         
-    color: #2618A1;
-    font-weight: bold;
-    padding-left:50px; 
+.name-text {
+  font-size: 18px;
+  color: #2618a1;
+  font-weight: bold;
+  padding-left: 50px;
 }
 
-.text{
-    color:black; 
-    padding-left: 70px;
-    line-height:30px
+.third_div-text {
+  color: black;
+  padding-left: 70px;
+  line-height: 30px;
 }
-.aa { 
-      float: left; 
-      width: 200px;
-      height: 180px; 
-      margin: 30px; 
-      border: 1px 
-      solid black;
-      text-align: center;
-      
+.aa {
+  float: left;
+  width: 200px;
+  height: 180px;
+  margin: 20px;
+  border: 1px solid black;
+  text-align: center;
 }
-.aa a{
-    text-decoration:  none;}
-
-.aa p{ 
-
-     margin: 0px; padding: 10px;
-    
-    }
-.aa{
-    font-size: 20px;
+.aa a {
+  text-decoration: none;
 }
 
-.name{
-        
-    vertical-align: bottom
+.aa p {
+  margin: 0px;
+  padding: 10px;
+}
+.aa {
+  font-size: 20px;
+}
 
-     }
+.name {
+  vertical-align: bottom;
+}

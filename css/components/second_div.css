@@ -1,44 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
 .second_div {
-    
-   background-size: cover;
-  
-   height: 300px;
-   background-color: #FFDD00;
+  background-size: cover;
+  height: 350px;
+  background-color: #ffdd00;
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
 }
-.icon
-{
-    margin-left: 150px;
-    
-
+.icon-container {
+  margin: 0 auto;
 }
 .fa-stack {
-    margin: 35px;
+  margin: 35px;
 
-    position: relative;
-    width: 400px;
-    height: 200px;
+  position: relative;
+  width: 400px;
+  height: 200px;
 }
 
-.fa-stack p{
-    font-size: 20px;
-    
-    vertical-align: bottom;
-
-    position: absolute;
-    top: 100px;
-    left:45px;
-    width: 200px;
-    height: 100px;
-
+.fa-stack p {
+  font-size: 20px;
+  vertical-align: bottom;
+  position: absolute;
+  top: 100px;
+  left: 45px;
+  width: 200px;
+  height: 100px;
 }
 
-.iconame{
-    font-size: 20px;
-    
+.iconame {
+  font-size: 20px;
 }
