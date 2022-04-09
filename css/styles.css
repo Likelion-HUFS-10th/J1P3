@@ -12,7 +12,11 @@
 
 /* components */
 @import "components/banner-container.css";
-@import "components/footer-container.css";
+
+@import "components/header.css";
+@import "components/first_div.css";
+@import "components/fourth_div.css";
+
 /* --------------------------------------------------- */
 
 body,
@@ -22,4 +26,10 @@ button {
   font-size: 15px; /* 기본 폰트 사이즈 15pt */
   font-family: NotoSans-Regular, AppleSDGothicNeo-Regular, "맑은 고딕",
     Malgun Gothic, "돋움", dotum, sans-serif;
+}
+
+* {
+  /* first_div와 header.css에 공통적으로 겹치는 코드라 전역으로 땡겨왔습니다 */
+  margin: 0;
+  padding: 0;
 }
