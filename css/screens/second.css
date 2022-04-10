@@ -6,11 +6,10 @@ body {
 .site_wrap {
   height: auto;
   min-height: 100%;
-  padding-bottom: 100px;
   position: relative;
 }
 
-.second2_div {
+.subpage-second_div {
   background-color: #fcd307;
   height: 120px;
   display: flex;
@@ -31,7 +30,7 @@ body {
   height: 400px;
 }
 
-.fourth2_div {
+.subpage-fourth_div {
   display: flex;
   justify-content: center;
 }
@@ -79,7 +78,7 @@ body {
   height: 30px;
 }
 
-input {
+#recruit_btn {
   position: relative;
   top: 30px;
   right: -163.5px;
