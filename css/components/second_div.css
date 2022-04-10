@@ -1,34 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@1,700&display=swap');
 
 .second_div {
-    
-   background-size: cover;
-   font-family: 'Thasadith', sans-serif;
-   height: 300px;
-   background-color: orange;
+  background-size: cover;
+  height: 350px;
+  background-color: #ffdd00;
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
 }
-.icon
-{
-    margin-left: 150px;
+.icon-container {
+  margin: 0 auto;
 }
 .fa-stack {
-    margin: 35px;
-    position: relative;
-    width: 400px;
-    height: 200px;
+  margin: 35px;
+
+  position: relative;
+  width: 400px;
+  height: 200px;
 }
 
-.fa-stack p{
-    font-size: 20px;
-    vertical-align: bottom;
-    position: absolute;
-    top: 100px;
-    left:45px;
-    width: 200px;
-    height: 100px;
-
+.fa-stack p {
+  font-size: 20px;
+  vertical-align: bottom;
+  position: absolute;
+  top: 100px;
+  left: 45px;
+  width: 200px;
+  height: 100px;
 }
 
-.iconame{
-    font-size: 20px;    
+.iconame {
+  font-size: 20px;
 }

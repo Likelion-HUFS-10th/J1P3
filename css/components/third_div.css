@@ -1,63 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
-
-
 .third_div {
-    padding-left:50px;
-    font-family: 'Rubik Moonrocks', cursive;
-    font-size: 35px;
-    display: table-cell;
-    vertical-align: middle;
-    color:black; 
-
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  vertical-align: middle;
+  padding: 70px 0px;
 }
 
-.third2_div{
-    position: relative;
-    top: 30px;
-   
+.third_div-text_container {
+  position: relative;
+  top: 30px;
 }
 
-
-.name-text {                                  
-    font-size: 26px;                         
-    color: orange;
-    font-weight: bold;
-    padding-left:50px; 
-    font-family: 'Black Han Sans', sans-serif;
+.name-text {
+  font-size: 18px;
+  color: #2618a1;
+  font-weight: bold;
+  padding-left: 50px;
 }
 
-
-.aa { 
-      float: left; 
-      width: 200px;
-      height: 180px; 
-      margin: 30px; 
-      border: 1px 
-      solid black;
-      text-align: center;
-      font-size: 20px;
-      
+.third_div-text {
+  color: black;
+  padding-left: 70px;
+  line-height: 30px;
 }
-.aa a{
-    text-decoration:  none;}
+.aa {
+  float: left;
+  width: 200px;
+  height: 180px;
+  margin: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+.aa a {
+  text-decoration: none;
+}
 
-.aa p{ 
+.aa p {
+  margin: 0px;
+  padding: 10px;
+}
+.aa {
+  font-size: 20px;
+}
 
-     margin: 0px; padding: 10px;
-     font-size: 23px;
-    }
-.name{
-        
-    vertical-align: bottom
-
-     }
-
- .text{
-    color:black; 
-    padding-left: 70px;
-    line-height:30px;
-  font-family: 'Gowun Batang', serif;
-
-   
-    }
+.name {
+  vertical-align: bottom;
+}
