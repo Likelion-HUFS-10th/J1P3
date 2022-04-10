@@ -1,8 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@1,700&display=swap');
 .second_div {
   background-size: cover;
   height: 350px;
-  background-color: #ffdd00;
+  background-color: orange;
   display: flex;
   align-items: center;
   padding-bottom: 30px;
@@ -26,6 +26,7 @@
   left: 45px;
   width: 200px;
   height: 100px;
+  font-family: 'Thasadith', sans-serif;
 }
 
 .iconame {
