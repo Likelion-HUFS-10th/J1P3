@@ -20,8 +20,14 @@ footer {
 
 .site_footer_icons {
   font-size: medium;
-  width: 60px;
-  height: 20px;
-  display: flex;
-  justify-content: space-between;
+  float: right;
+}
+
+.site_footer_icons ul li{
+  display: inline-block;
+  padding: 0px 3px;
+}
+.site_footer img{
+  width: 15px;
+  height: 15px;
 }
